@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello world,  
 
-### More Information
+My name is Orestis Floros and I am an undergraduate student in the ECE department of Aristotle University of Thessaloniki.
 
-A place to include any other types of information that you'd like to include about yourself.
+I am currently working with Intel Media and Audio for Linux on my GSoC [project](https://summerofcode.withgoogle.com/projects/#4983264524632064).
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[orestisf1993@gmail.com](mailto:orestisf1993@gmail.com)
