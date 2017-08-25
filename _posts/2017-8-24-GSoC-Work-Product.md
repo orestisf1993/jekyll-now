@@ -32,6 +32,7 @@ Can be viewed in the following links:
 During the GSoC coding periods I also submitted the following bug reports for problems detected while implementing my original task:
 - [https://bugzilla.gnome.org/show_bug.cgi?id=783588](https://bugzilla.gnome.org/show_bug.cgi?id=783588)
 - [https://bugzilla.gnome.org/show_bug.cgi?id=786797](https://bugzilla.gnome.org/show_bug.cgi?id=786797)
+- [https://bugzilla.gnome.org/show_bug.cgi?id=786802](https://bugzilla.gnome.org/show_bug.cgi?id=786802)
 
 ## Work to be done
 - Get the code accepted: bugs 732266 and 732267 are still open and my patches are under review.
