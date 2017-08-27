@@ -41,6 +41,24 @@ I will reply to reviews and comments until they get accepted.
 This is optional for the decoding process but still desired.
 I am interested in submiting a patch for this.
 
+## Running the code
+- Download Gstreamer.
+You can use [gst-uninstalled](https://arunraghavan.net/2014/07/quick-start-guide-to-gst-uninstalled-1-x/) for that.
+- Apply my patches from [https://bugzilla.gnome.org/show_bug.cgi?id=732267](https://bugzilla.gnome.org/show_bug.cgi?id=732267)
+to gst-plugins-bad.
+- Clone gstreamer-vaapi:
+  ```
+  git clone "git://anongit.freedesktop.org/gstreamer/gstreamer-vaapi"
+  ````
+- Apply my patches from [https://bugzilla.gnome.org/show_bug.cgi?id=732266](https://bugzilla.gnome.org/show_bug.cgi?id=732266)
+to gstreamer-vaapi.
+- Build.
+- Test pipelines! You can find MVC or SVC bitstreams from [ITU-T](https://www.itu.int/net/itu-t/sigdb/spevideo/VideoForm-s.aspx?val=102002641).
+Example command:
+  ```
+  gst-launch-1.0 filesrc location=SVCHCTS-1-L5.264 ! h264parse ! vaapih264dec base-only=TRUE ! vaapisink
+  ```
+
 ## Other useful links
 - [GSoC project page](https://summerofcode.withgoogle.com/projects/#4983264524632064)
 - Blog I used during GSoC: [https://orestisf1993.github.io/](https://orestisf1993.github.io/)
