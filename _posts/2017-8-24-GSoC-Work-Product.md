@@ -35,8 +35,9 @@ During the GSoC coding periods I also submitted the following bug reports for pr
 - [https://bugzilla.gnome.org/show_bug.cgi?id=786802](https://bugzilla.gnome.org/show_bug.cgi?id=786802)
 
 ## Work to be done
-- Get the code accepted: bugs 732266 and 732267 are still open and my patches are under review.
-I will reply to reviews and comments until they get accepted.
+- Get the code accepted: bugs ~~732266~~ and 732267 are still open and my patches are under review.
+I will reply to reviews and comments until they get accepted.  
+(**UPDATE**: 732266 is now accepted).
 - Filter out SEI messages according to the H264 spec.
 This is optional for the decoding process but still desired.
 I am interested in submiting a patch for this.
@@ -50,8 +51,8 @@ to gst-plugins-bad.
   ```
   git clone "git://anongit.freedesktop.org/gstreamer/gstreamer-vaapi"
   ````
-- Apply my patches from [https://bugzilla.gnome.org/show_bug.cgi?id=732266](https://bugzilla.gnome.org/show_bug.cgi?id=732266)
-to gstreamer-vaapi.
+- ~~Apply my patches from [https://bugzilla.gnome.org/show_bug.cgi?id=732266](https://bugzilla.gnome.org/show_bug.cgi?id=732266)
+to gstreamer-vaapi.~~
 - Build.
 - Test pipelines! You can find MVC or SVC bitstreams from [ITU-T](https://www.itu.int/net/itu-t/sigdb/spevideo/VideoForm-s.aspx?val=102002641).
 Example command:
