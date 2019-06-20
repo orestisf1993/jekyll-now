@@ -63,4 +63,3 @@ Example command:
 ## Other useful links
 - [GSoC project page](https://summerofcode.withgoogle.com/projects/#4983264524632064)
 - Blog I used during GSoC: [https://orestisfl.github.io/](https://orestisfl.github.io/)
-- My gnome bugzilla profile: [https://bugzilla.gnome.org/page.cgi?id=describeuser.html&login=orestisfl%40gmail.com](https://bugzilla.gnome.org/page.cgi?id=describeuser.html&login=orestisfl%40gmail.com)
