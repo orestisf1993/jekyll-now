@@ -10,4 +10,4 @@ My name is Orestis Floros and I am an undergraduate student in the ECE departmen
 
 ### Contact me
 
-[orestisf1993@gmail.com](mailto:orestisf1993@gmail.com)
+[orestisfl@gmail.com](mailto:orestisfl@gmail.com)

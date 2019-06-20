@@ -119,7 +119,7 @@ The logic I follow to implement this is:
 3. `gst_h264_parse_handle_frame()`: If `base_only==TRUE`, don't process all NAL units with type 14, 15 or 20.
 
 My changes are available in my
-[fork repo](https://github.com/orestisf1993/gst-plugins-bad/commit/4f1e480ab2921752a0bf1c8b06557d8717bd8217)
+[fork repo](https://github.com/orestisfl/gst-plugins-bad/commit/4f1e480ab2921752a0bf1c8b06557d8717bd8217)
 but I haven't submitted a patch in bug
 [#732267](https://bugzilla.gnome.org/show_bug.cgi?id=732267)
 yet since I want to investigate the situation with packetized streams more.
